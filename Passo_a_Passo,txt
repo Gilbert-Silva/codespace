@@ -5,4 +5,5 @@ docker exec -it e7859976c862 bash -> entrar no container para explorar os arquiv
 docker stop e7859976c862
 docker run -d -p 8080:80 -v ./html:/usr/share/nginx/html nginx -> Mapeamento da pasta do codespace para
                                                                   a pasta do container
+docker-compose up                 -> configura os dockers no arquivo yml
                                                                   
