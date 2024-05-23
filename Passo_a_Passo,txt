@@ -1,0 +1,8 @@
+docker --version
+docker ps                         -> mostrar os containers
+docker run -d -p 8080:80 nginx    -> inicia um container do servidor nginx
+docker exec -it e7859976c862 bash -> entrar no container para explorar os arquivos
+docker stop e7859976c862
+docker run -d -p 8080:80 -v ./html:/usr/share/nginx/html nginx -> Mapeamento da pasta do codespace para
+                                                                  a pasta do container
+                                                                  
